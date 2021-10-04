@@ -8,6 +8,11 @@
     margin: 0px;
 }
 
+.flex-container > div {
+    text-align: center;
+    padding: 10px 0;
+}
+
 header{
     grid-area: header;
 }
@@ -54,8 +59,15 @@ body {
     padding: 0;
 }
 
+.header, .aboutHeader, .socialmediaHeader{
+    padding: 10px;
+}
+
+#socialArchiveLinks{
+    color: #4299E1;
+}
+
 .header{
-    text-align: center;
     background-color: #63B3ED;
     color: #FFFFFF;
     padding: 20px;
@@ -79,6 +91,19 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+h2{
+    font-size: 32px;
+    color:#48BB78;
+}
+
+#authordate{
+    color: #718096;
+
+}
+
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 footer{
     background-color: #2C5282;
     color: #FFFFFF;
